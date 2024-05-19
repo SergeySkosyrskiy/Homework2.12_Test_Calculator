@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 public class DivisionByZeroException extends IllegalArgumentException {
 
 public DivisionByZeroException (){
-    super("Деление на ноль невозможно");
+    super("Деление на ноль невозможно! Используйте другое значение.");
 }
 
 }
